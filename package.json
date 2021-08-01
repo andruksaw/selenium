@@ -1,0 +1,31 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "ui and unit tests for xampp app on selenium-webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andruksaw/selenium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andruksaw/selenium/issues"
+  },
+  "homepage": "https://github.com/andruksaw/selenium#readme",
+  "dependencies": {
+    "geckodriver": "^2.0.1",
+    "ie64driver": "^2.52.0",
+    "mocha": "^9.0.3",
+    "msedgedriver": "^91.0.0",
+    "operadriver": "^1.0.0",
+    "selenium-webdriver": "^4.0.0-beta.4",
+    "wdio-safaridriver-service": "0.0.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^92.0.0"
+  }
+}
