@@ -6,6 +6,7 @@ const { Driver } = require('selenium-webdriver/chrome');
 //const { Driver } = require('selenium-webdriver/opera');
 //const { Driver } = require('selenium-webdriver/ie');
 //const { Driver } = require('selenium-webdriver/edge');
+//const { Driver } = require('selenium-webdriver/safari');
 
 class HomePage extends BasePage {
     enter_login() {

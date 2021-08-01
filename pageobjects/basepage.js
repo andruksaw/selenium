@@ -5,10 +5,12 @@ const driver = new webdriver.Builder().forBrowser('chrome').build();
 //const driver = new webdriver.Builder().forBrowser('firefox').build();
 //const operadriver = require('operadriver');
 //const driver = new webdriver.Builder().forBrowser('opera').build();
-//const iedriver = require('ie64driver');
+//const ie64driver = require('ie64driver');
 //const driver = new webdriver.Builder().forBrowser('internet explorer').build();
-//const edgedriver = require('edgedriver');
+//const msedgedriver = require('msedgedriver');
 //const driver = new webdriver.Builder().forBrowser('edge').build();
+//const safaridriver = require('wdio-safaridriver-service');
+//const driver = new webdriver.Builder().forBrowser('safari').build();
 driver.manage().setTimeouts({implicit: (10000)});
 
 class BasePage {
